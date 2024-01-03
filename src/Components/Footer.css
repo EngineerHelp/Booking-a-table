@@ -1,0 +1,123 @@
+
+footer{
+    display: grid;
+    grid-template-columns: 20% 15% 15% 15% 15% 20%;
+    grid-template-rows: auto;
+    background-color: #edefee;
+    color: rgb(51, 76, 51);
+}
+
+footer img{
+    padding-top: 10px;
+    height: 220px;
+}
+
+.navigation{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-item{
+    text-decoration: none;
+    font-weight: 400;
+    color: #334c33;
+}
+
+.footer-item:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.navigation li{
+    line-height: 1.5em;
+}
+
+.contact{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0;
+}
+
+.contact li{
+    line-height: 1.2em;
+}
+
+.contact li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.social-media{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0;
+}
+
+.social-media li{
+    line-height: 1.2em;
+}
+
+.social-media li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media (min-width:768px) and (max-width: 1230px) {
+    footer{
+        display: grid;
+        grid-template-columns: 5% 30% 20% 20% 20% 5%;
+        grid-template-rows: 270px;
+        background-color: #edefee;
+        color: rgb(51, 76, 51);
+    }
+}
+
+@media (min-width:370px) and (max-width: 767px) {
+    footer{
+        display: grid;
+        grid-template-columns: 5% 25% 20% 25% 5%;
+        grid-template-rows: auto;
+        background-color: #edefee;
+        justify-content: space-between;
+        color: rgb(51, 76, 51);
+    }
+
+    footer img{
+        display: none;
+    }
+
+    .footer-item {
+        font-size: smaller;
+    }
+
+    .navigation {
+        justify-content: flex-start;
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    .contact {
+        font-size: smaller;
+        justify-content: flex-start;
+        margin: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .social-media {
+        font-size: smaller;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,81 @@
+
+.login{
+    display: flex;
+    background-color: rgb(196, 233, 196);
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box{
+    background-color: whitesmoke;
+    color: #253325;
+    height: 410px;
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 1px 2px 4px 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.login-box input{
+    width: 90%;
+    margin: 5px auto;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 8px 5px;
+}
+
+p{
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+p span:hover{
+    cursor: pointer;
+}
+
+.sign-in{
+    width: 90%;
+    background-color: rgba(110,188,133,0.96);
+    color: black;
+    border: 0;
+    border-radius: 2px;
+    padding: 8px;
+    font-size: 15px;
+    box-shadow: 1px 1px 3px 0;
+}
+
+.sign-in:hover{
+    background: black;
+    color: rgba(110, 188, 133, 0.96);
+    font-weight: bold;
+    transition: 0.3s ease;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px 0;
+}
+
+.brands{
+    border: 1px solid darkgreen;
+    border-radius: 2px;
+    padding: 4px;
+    margin-right: 5px;
+}
+
+@media (min-width:370px) and (max-width: 767px){
+    .login-box{
+        height: 380px;
+        width: 280px;
+        padding: 20px 20px;
+    }
+
+}
+
+
+
